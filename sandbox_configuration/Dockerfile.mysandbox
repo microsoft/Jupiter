@@ -1,0 +1,3 @@
+FROM volcengine/sandbox-fusion:server-20250609
+
+RUN /root/miniconda3/envs/sandbox-runtime/bin/pip install ipython==8.18.1 --force-reinstall
