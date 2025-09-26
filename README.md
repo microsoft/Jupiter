@@ -51,8 +51,6 @@ docker run --cpus=64 -e OMP_NUM_THREADS=32 -it -p 8080:8080 -v Path/to/local.yam
 
 ### NbQA dataset
 
-**Note: The paper is currently under review. The full dataset will be uploaded after the review.**
-
 The `dataset` directory contains the NbQA dataset and the visualization tasks that were not used in the paper. Due to policy reasons, we will not directly distribute the original Jupyter notebooks and data files used to generate each sample. We will only indicate the notebook file names and the corresponding original GitHub repository links, along with the names of the data files required to execute the notebook. If, in addition to SFT, you want to train your own value model, you should crawl the data files required to execute the task from each dataset sample using the `github_repo`, `ipynb_name`, and `file_names` fields, and handle the path issues yourself.
 
 Note: The repositories may be modified or deleted. Additionally, the notebook and files indicated in the fields may not necessarily be located in the root directory of the repository, and there could be notebooks or files with the same name.
